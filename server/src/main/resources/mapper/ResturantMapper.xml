@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.resturant.mapper.ResturantMapper">
+
+    <select id="" resultType="com.resturant.entity.Resturant" parameterType="java.lang.Long">
+        SELECT
+            v.`locationid`, v.`Applicant`, v.`FacilityType`, v.`cnn`, v.`LocationDescription`, v.`Address`,
+            v.`blocklot`, v.`permit`
+        FROM tb_resturant
+    </select>
+</mapper>
